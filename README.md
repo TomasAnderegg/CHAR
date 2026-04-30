@@ -91,7 +91,6 @@ We evaluate the planner on out-of-distribution, real-world-like domains and focu
 ├── models/             # Model definitions (backbone, heads, fusion)
 ├── train.py            # Training script
 ├── evaluate.py         # Validation & ADE computation
-├── infer.py            # Inference & Kaggle submission generation
 ├── configs/            # Hyperparameter configs (YAML)
 └── README.md
 ```
@@ -100,36 +99,33 @@ Each milestone branch may add or modify files in `models/` and `train.py` to ref
 
 ---
 
-## Getting Started
+## Setup
 
-### Installation
+1. Create a new conda environment with Python 3.11:
 
 ```bash
-git clone https://github.com/vita-student-projects/<repo-name>.git
-cd <repo-name>
-git checkout milestone-1   # or milestone-2 / milestone-3
+conda create -n dlav_env python=3.11
+conda activate dlav_env
+```
+
+2. Install required packages:
+
+```bash
 pip install -r requirements.txt
 ```
 
-### Training
+3. Main dependencies:
 
-```bash
-python train.py --config configs/milestone1.yaml
 ```
-
-### Evaluation
-
-```bash
-python evaluate.py --checkpoint checkpoints/best.pth
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+matplotlib
+gdown
+wandb
+tqdm
+Pillow
 ```
-
-### Inference (Kaggle submission)
-
-```bash
-python infer.py --checkpoint checkpoints/best.pth --output submission.csv
-```
-
----
 
 ## Compute
 
