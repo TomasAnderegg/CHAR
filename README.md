@@ -1,4 +1,4 @@
-# End-to-End Planning for Autonomous Driving
+# CHAR - End-to-End Planning for Autonomous Driving
 ### CIVIL-459 Deep Learning for Autonomous Vehicles  — EPFL, Spring 2026
 **Tomas Garate Anderegg · Jules Streit**
 
