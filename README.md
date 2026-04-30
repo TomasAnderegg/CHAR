@@ -117,7 +117,7 @@ Training is run on the **EPFL SCITAS Izar cluster** (GPU nodes). Example SLURM s
 
 ## Authors
 
-- **Tomas Garate Anderegg** — EPFL MA4
-- **Jules Streit** — EPFL MA4
+- **Tomas Garate Anderegg** — EPFL, Robotics MA4
+- **Jules Streit** — EPFL, Robotics MA4
 
-Course: CS-503 Visual Intelligence, Spring 2026
+CIVIL-459 Deep Learning for Autonomous Vehicles, Spring 2026
