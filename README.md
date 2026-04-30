@@ -83,22 +83,6 @@ We evaluate the planner on out-of-distribution, real-world-like domains and focu
 
 ---
 
-## Repository Structure
-
-```
-.
-├── data/               # Data loading utilities and dataset class
-├── models/             # Model definitions (backbone, heads, fusion)
-├── train.py            # Training script
-├── evaluate.py         # Validation & ADE computation
-├── configs/            # Hyperparameter configs (YAML)
-└── README.md
-```
-
-Each milestone branch may add or modify files in `models/` and `train.py` to reflect the extended architecture.
-
----
-
 ## Setup
 
 1. Create a new conda environment with Python 3.11:
