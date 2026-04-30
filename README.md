@@ -14,9 +14,9 @@ The project is structured into **three progressive milestones**, each available 
 
 | Branch | Milestone | Key addition |
 |---|---|---|
-| `milestone-1` | Basic End-to-End Planner | Camera + driving command + history → trajectory |
-| `milestone-2` | Perception-Aware Planning | + Auxiliary tasks: semantic segmentation & depth estimation |
-| `milestone-3` | Sim-to-Real Generalization | + Domain adaptation & data augmentation for out-of-distribution robustness |
+| `Milestone_1` | Basic End-to-End Planner | Camera + driving command + history → trajectory |
+| `Milestone_2` | Perception-Aware Planning | + Auxiliary tasks: semantic segmentation & depth estimation |
+| `Milestone_3` | Sim-to-Real Generalization | + Domain adaptation & data augmentation for out-of-distribution robustness |
 
 ---
 
