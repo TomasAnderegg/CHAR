@@ -39,7 +39,7 @@ All coordinates are expressed in the ego vehicle's local frame at timestep 21. T
 
 ## Milestones
 
-### Milestone 1 — Basic End-to-End Planner (`milestone-1`)
+### Milestone 1 — Basic End-to-End Planner (`Milestone_1`)
 
 **Allowed inputs:** `camera`, `driving_command`, `sdc_history_feature`
 
@@ -55,7 +55,7 @@ We implement a baseline end-to-end neural network that fuses visual and motion f
 
 ---
 
-### Milestone 2 — Perception-Aware Planning (`milestone-2`)
+### Milestone 2 — Perception-Aware Planning (`Milestone_2`)
 
 **Additional inputs:** `semantic_label`, `depth` (as auxiliary supervision only)
 
@@ -70,7 +70,7 @@ We extend the Milestone 1 model with multi-task learning to improve the richness
 
 ---
 
-### Milestone 3 — Sim-to-Real Generalization (`milestone-3`)
+### Milestone 3 — Sim-to-Real Generalization (`Milestone_3`)
 
 **Note:** No depth or semantic labels are available in this phase.
 
