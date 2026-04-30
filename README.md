@@ -1,14 +1,14 @@
 # End-to-End Planning for Autonomous Driving
-### CS-503 Visual Intelligence — EPFL, Spring 2026
+### CIVIL-459 Deep Learning for Autonomous Vehicles  — EPFL, Spring 2026
 **Tomas Garate Anderegg · Jules Streit**
 
 ---
 
 ## Overview
 
-This repository contains our implementation of an end-to-end deep learning planner for autonomous driving, developed as part of the CS-503 Visual Intelligence course at EPFL. The goal is to predict future vehicle trajectories directly from raw sensor inputs, without relying on a hand-engineered modular pipeline.
+This repository contains our implementation of an end-to-end deep learning planner for autonomous driving, developed as part of the CIVIL-459 Deep Learning for Autonomous Vehicles course at EPFL. The goal is to predict future vehicle trajectories directly from raw sensor inputs, without relying on a hand-engineered modular pipeline.
 
-We use a curated subset of the **nuPlan** dataset, the world's first large-scale planning benchmark for autonomous vehicles. The model takes as input camera images, driving commands, and vehicle motion history, and outputs a sequence of future waypoints evaluated via **Average Displacement Error (ADE)**.
+We use a curated subset of the **nuPlan** dataset, the world's first large-scale planning benchmark for autonomous vehicles. The model takes as input camera images, driving commands, vehicle motion history and outputs a sequence of future waypoints evaluated via **Average Displacement Error (ADE)**.
 
 The project is structured into **three progressive milestones**, each available on its own branch:
 
