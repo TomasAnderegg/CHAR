@@ -68,8 +68,6 @@ We extend the Milestone 1 model with multi-task learning to improve the richness
 - The backbone is jointly trained with a **weighted multi-task loss** combining trajectory regression, segmentation cross-entropy, and depth L1 loss
 - Auxiliary heads are discarded at inference time; only the trajectory head is used
 
-**Scoring:** ADE < 1.6 → full score · ADE > 2.0 → zero · linear interpolation in between
-
 ---
 
 ### Milestone 3 — Sim-to-Real Generalization (`milestone-3`)
@@ -82,8 +80,6 @@ We evaluate the planner on out-of-distribution, real-world-like domains and focu
 - Strong **photometric and geometric augmentations** (color jitter, random crop, horizontal flip, Gaussian blur) to reduce reliance on simulation-specific visual cues
 - Optional **feature-space alignment** to encourage domain-invariant representations
 - The model from Milestone 2 serves as the starting point, with fine-tuning on the augmented training distribution
-
-**Scoring:** ADE < 1.8 → full score · ADE > 2.0 → zero · linear interpolation in between
 
 ---
 
