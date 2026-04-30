@@ -51,8 +51,6 @@ We implement a baseline end-to-end neural network that fuses visual and motion f
 - The **motion history** (21 × 3) is encoded via a GRU
 - All features are fused and decoded into a 60-step trajectory via an MLP head
 
-**Scoring:** ADE < 2.0 → full score · ADE > 4.0 → zero · linear interpolation in between
-
 ---
 
 ### Milestone 2 — Perception-Aware Planning (`Milestone_2`)
