@@ -155,7 +155,7 @@ The following plots illustrate the convergence of the model.
 ```
 Project/
 ├── src/
-│   ├── model.py            # Model architecture (CHARPlan)
+│   ├── model.py            # Model architecture (DrivingPlanner)
 │   ├── train.py            # Training pipeline
 │   ├── data_loader.py      # Dataset, preprocessing & augmentation
 │   ├── eval.py             # Inference & submission generation
