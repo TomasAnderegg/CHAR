@@ -106,9 +106,7 @@ Unlike autoregressive approaches (step-by-step), the decoder predicts the entire
 
 * **Direct Projection**: An MLP projects the latent vector to the full output dimension: `Linear(512 -> 180)`.
 * **Reshaping**: The vector is reshaped into **(60, 3)**, representing the relative displacements $(\Delta x, \Delta y, \Delta \text{heading})$ for each timestep.
-* **Trajectory Reconstruction**: The final trajectory is reconstructed via a cumulative sum (**cumsum**) from the last known position in the history:
-
-$$\text{Pos}_{t} = \text{Pos}_{t-1} + \Delta_t$$
+* **Trajectory Reconstruction**: The final trajectory is reconstructed via a cumulative sum (**cumsum**) from the last known position in the history.
 ---
 
 ## 6. Training Setup
