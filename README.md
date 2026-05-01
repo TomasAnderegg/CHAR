@@ -80,7 +80,7 @@ Applied with probability 0.25 during training :
 
 ## 5. Model Architecture
 
-![DrivingPlanner Pipeline](assets/Milestone_1_dlav.drawio.png)
+![DrivingPlanner Pipeline](assets/Milestone_1_dlav.drawio2.png)
 
 ### 5.1 Image Encoder -> `img_feat (B, 256)`
 * **Backbone**: **ResNet-34** pre-trained on ImageNet, used to extract global visual features (all layers except the last two).
